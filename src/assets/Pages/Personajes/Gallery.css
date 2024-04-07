@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gallery {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 19px 85px 60px 111px;
+    gap: 20px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+
+.char-container {
+    width: 248px;
+    height: 320px;
+}
+
+.simplebar-scrollbar {
+    width: 4px !important;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.simplebar-track.simplebar-vertical {
+    width: 4px !important;
+    border-radius: 4px;
+    background-color: #99999921;
+}
+
+.simplebar-scrollbar:hover:before {
+
+    cursor: pointer;
+}

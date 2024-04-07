@@ -1,0 +1,14 @@
+.imagenFondo {
+
+    background-image: url('../public/IMG/fondoHome.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    place-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 19px 112px 60px 111px;
+    object-fit: contain;
+
+}

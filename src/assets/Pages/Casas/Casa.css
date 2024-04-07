@@ -1,0 +1,37 @@
+.galleryHouse {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 19px 85px 60px 111px;
+}
+
+.house-container {
+    display: flex;
+    object-fit: cover;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.house-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    transition: opacity 0.3s ease;
+}
+
+.imgHouse {
+    max-width: 86%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "GameofThrones";
+    src: url("../../public/FONTS/gameofthones.ttf");
+}
+
+
+
+
+.MenuStilo {
+
+    position: absolute;
+    font-family: GameofThrones;
+    font-size: 36px;
+    top: 80%;
+    color: white;
+
+}
+
+.estiloNav {
+
+    font-size: 36px;
+    font-family: GameofThrones;
+    text-decoration: none;
+    color: white;
+    padding-left: 45%;
+
+}
