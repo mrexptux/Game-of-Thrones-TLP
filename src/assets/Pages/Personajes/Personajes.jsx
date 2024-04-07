@@ -15,7 +15,6 @@ const Personajes = () => {
     const getCharacters = async () => {
 
       const res = await axios('http://localhost:3000/characters');
-      console.log(res.data)
       setCharacters(res.data);
     }
     getCharacters();

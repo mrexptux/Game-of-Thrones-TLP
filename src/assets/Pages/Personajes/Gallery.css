@@ -85,12 +85,13 @@ body {
 
 .MenuStilo {
 
-    top: 100% !important;
+    top: 110% !important;
+    margin: 0px !important;
 
 }
 
 
 .gallery-scroll {
     overflow-y: scroll;
-    height: 100vh;
+    height: 85vh;
 }
