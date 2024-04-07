@@ -1,50 +1,96 @@
-body {
-    margin: 0;
-    background-color: black;
+.gallery-title {
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
 }
 
-p {
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #42B32F;
     color: white;
 }
 
-img {
-    max-width: 100%;
-    height: 100%;
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+
+.img-responsive {
+
+    width: 276px;
+    height: 400px;
     object-fit: cover;
 
 }
 
-.gallery {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 19px 85px 60px 111px;
-    gap: 20px;
-    position: relative;
+body {
+
+    background-color: black !important;
+
+
+}
+
+
+.input-class {
+
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.input-button {
+
+    padding: 40px;
+    margin: 20px;
+
+}
+
+
+
+.MenuStilo {
+
+    top: 100% !important;
+
+}
+
+
+.gallery-scroll {
     overflow-y: scroll;
-}
-
-
-.char-container {
-    width: 248px;
-    height: 320px;
-}
-
-.simplebar-scrollbar {
-    width: 4px !important;
-    background-color: #ffffff;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.simplebar-track.simplebar-vertical {
-    width: 4px !important;
-    border-radius: 4px;
-    background-color: #99999921;
-}
-
-.simplebar-scrollbar:hover:before {
-
-    cursor: pointer;
+    height: 100vh;
 }

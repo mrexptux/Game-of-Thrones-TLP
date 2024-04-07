@@ -16,8 +16,8 @@ const Personajes = () => {
 
       const res = await axios('http://localhost:3000/characters');
       console.log(res.data)
-        setCharacters(res.data); 
-      } 
+      setCharacters(res.data);
+    }
     getCharacters();
   }, []);
 
@@ -26,22 +26,10 @@ const Personajes = () => {
 
   return (
     <>
-      <header>
-        <BuscadorPersonajes></BuscadorPersonajes>
-      </header>
+
       <body>
-            <Gallery characters={characters}/>
-        <div>
-          <Menu></Menu>
-        </div>
+        <Gallery characters={characters} />
       </body>
-   {/* <div className='personajecabezado'>
-      <div><BuscadorPersonajes></BuscadorPersonajes></div>
-        
-       <div><Gallery characters={characters} /></div> 
-     
-      </div>
-      */}
     </>
   )
 }
