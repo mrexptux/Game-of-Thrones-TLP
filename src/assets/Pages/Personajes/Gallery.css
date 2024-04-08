@@ -77,7 +77,7 @@ body {
 .input-button {
 
     padding: 40px;
-    margin: 20px;
+    margin-top: 15px;
 
 }
 
@@ -92,5 +92,19 @@ body {
 
 .gallery-scroll {
     overflow-y: scroll;
-    height: 100vh;
+    height: 85vh;
+}
+
+.backgroud-idiomas-esp {
+    width: 60px;
+    background-size: cover;
+}
+
+.backgroud-idiomas-engla {
+    width: 70px;
+    background-size: cover;
+}
+
+.barra {
+    padding: 18px;
 }

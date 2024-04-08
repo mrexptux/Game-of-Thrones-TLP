@@ -5,16 +5,17 @@ import BuscadorPersonajes from '../../../components/BuscadorPersonajes'
 import Gallery from './Gallery';
 import axios from 'axios';
 import Menu from '../Menu/Menu';
-import { ScrollSpy } from 'bootstrap';
+import House from "../../../components/House";
 
 const Personajes = () => {
   const [characters, setCharacters] = useState([]);
 
+  const urlBbdd = "http://localhost:3000/characters"
 
   useEffect(() => {
     const getCharacters = async () => {
 
-      const res = await axios('http://localhost:3000/characters');
+      const res = await axios(urlBbdd);
       console.log(res.data)
       setCharacters(res.data);
     }
@@ -22,11 +23,8 @@ const Personajes = () => {
   }, []);
 
 
-
-
   return (
     <>
-
       <body>
         <Gallery characters={characters} />
       </body>
