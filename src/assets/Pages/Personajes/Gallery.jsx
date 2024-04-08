@@ -1,5 +1,6 @@
 
 import "./Gallery.css";
+<<<<<<< HEAD
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -21,6 +22,16 @@ const Gallery = ({ characters }) => {
   const [filterPersonajes, setFilterPersonaje] = useState(characters);
 
   const handleFilterGallery = (event) => {
+=======
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+
+const Gallery = ({ characters }) => {
+
+  const [filterPersonajes, setFilterPersonaje] = useState(characters);
+
+  const handleFilter = (event) => {
+>>>>>>> 44356de787019ab300ab1f6e8e825abfc1f7a9f0
 
     const value = event.target.value;
     const filtered = characters.filter(personajes => personajes.name.includes(value));
